@@ -8,7 +8,7 @@ import PartnerSection from '../../Components/PartnerSection/PartnerSection';
 // import Projects from '../../Components/Projects/Projects';
 // import ContactSection from '../../Components/ContactSection/ContactSection';
 // import Footer from '../../Components/Footer/Footer';
-// import WhyChoose from '../../Components/Whychooseus/Whychoose';
+import Whychoose from '../../Components/WhyChoose/Whychoose';
 
 
 // import OurProcess from '../../Components/Ourprocess/Ourprocess';
@@ -19,8 +19,8 @@ const HomePage = () => {
     <Navbar/>
      <HeroSection/>
      <PartnerSection/>
-     {/*<WhyChoose/>
-    <ServiceSection/>
+     <Whychoose/>
+    {/*<ServiceSection/>
      <Projects/>
     <ContactSection/>
     <OurProcess/>
