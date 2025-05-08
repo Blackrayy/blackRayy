@@ -2,7 +2,7 @@
 import React from 'react';
 // import './HomePage.css'; // Link the CSS file
 import Navbar from '../../Components/Navbar/Navbar';
-// import HeroSection from '../../Components/HeroSection/HeroSection';
+import HeroSection from '../../Components/HeroSection/HeroSection';
 // import PartnerSection from '../../Components/PartnerSection/PartnerSection';
 // import ServiceSection from '../../Components/ServiceSection/ServiceSection';  
 // import Projects from '../../Components/Projects/Projects';
@@ -17,8 +17,8 @@ const HomePage = () => {
   return (
     <>
     <Navbar/>
-    {/* <HeroSection/>
-     <PartnerSection/>
+     <HeroSection/>
+     {/*<PartnerSection/>
      <WhyChoose/>
     <ServiceSection/>
      <Projects/>
