@@ -4,7 +4,7 @@ import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import HeroSection from '../../Components/HeroSection/HeroSection';
 import PartnerSection from '../../Components/PartnerSection/PartnerSection';
-// import ServiceSection from '../../Components/ServiceSection/ServiceSection';  
+import ServiceSection from '../../Components/ServiceSection/ServiceSection';  
 // import Projects from '../../Components/Projects/Projects';
 // import ContactSection from '../../Components/ContactSection/ContactSection';
 // import Footer from '../../Components/Footer/Footer';
@@ -20,8 +20,8 @@ const HomePage = () => {
      <HeroSection/>
      <PartnerSection/>
      <Whychoose/>
-    {/*<ServiceSection/>
-     <Projects/>
+    <ServiceSection/>
+     {/*<Projects/>
     <ContactSection/>
     <OurProcess/>
     <Footer/>  */}
